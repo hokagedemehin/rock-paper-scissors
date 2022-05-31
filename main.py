@@ -40,7 +40,7 @@ def rock_paper_scissors():
             print("You lose")
         else:
             print(f"Player ({user_choice}) : CPU ({computer_choice})")
-            print("You win")
+            print("You win 🎉")
     elif user_choice == "Paper":
 
         if computer_choice == "Scissors":
@@ -48,14 +48,14 @@ def rock_paper_scissors():
             print("You lose")
         else:
             print(f"Player ({user_choice}) : CPU ({computer_choice})")
-            print("You win")
+            print("You win 🎉")
     elif user_choice == "Scissors":
         if computer_choice == "Rock":
             print(f"Player ({user_choice}) : CPU ({computer_choice})")
             print("You lose")
         else:
             print(f"Player ({user_choice}) : CPU ({computer_choice})")
-            print("You win")
+            print("You win 🎉")
     # else:
     #     print("Invalid Choice again")
     # rock_paper_scissors()
